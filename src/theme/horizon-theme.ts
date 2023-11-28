@@ -54,11 +54,12 @@ export const horizonTheme = createTheme({
     //   // MuiTypography: Themed.MuiTypography,
     MuiInputBase: Themed.MuiInputBase,
     MuiInputLabel: Themed.MuiInputLabel,
-    MuiTextField: {
-      defaultProps: {
-        variant: 'outlined',
-      },
-    },
+    // MuiTextField: {
+    //   defaultProps: {
+    //     variant: 'outlined',
+    //   },
+    // },
+    MuiTextField: structuredClone(Themed.MuiTextField),
     MuiOutlinedInput: {
       styleOverrides: {
         root: ({ theme, ownerState }) => ({
