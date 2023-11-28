@@ -1,10 +1,5 @@
 import { createTheme } from '@mui/material';
 
-import * as Themed from '../components/themed';
-
-import { palette } from './palette';
-import { typography } from './typography';
-
 declare module '@mui/material/styles' {
   interface Palette {
     horizonWhite: Palette['primary'];
@@ -43,16 +38,16 @@ declare module '@mui/material/Button' {
 export type HorizonTheme = typeof horizonTheme;
 
 export const horizonTheme = createTheme({
-  typography,
-  palette,
-  // breakpoints,
-  components: {
-    // MuiButton: Themed.MuiButton,
-    // MuiLink: Themed.MuiLink,
-    // MuiTypography: Themed.MuiTypography,
-    MuiInputBase: Themed.MuiInputBase,
-    MuiInputLabel: Themed.MuiInputLabel,
-    MuiTextField: Themed.MuiTextField,
-    MuiOutlinedInput: Themed.MuiOutlinedInput,
-  },
+  // typography,
+  // palette,
+  // // breakpoints,
+  // components: {
+  //   // MuiButton: Themed.MuiButton,
+  //   // MuiLink: Themed.MuiLink,
+  //   // MuiTypography: Themed.MuiTypography,
+  //   MuiInputBase: Themed.MuiInputBase,
+  //   MuiInputLabel: Themed.MuiInputLabel,
+  //   MuiTextField: Themed.MuiTextField,
+  //   MuiOutlinedInput: Themed.MuiOutlinedInput,
+  // },
 });
