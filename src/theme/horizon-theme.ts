@@ -1,9 +1,8 @@
-import { createTheme } from '@mui/material';
+import { type Components, createTheme } from '@mui/material';
 
 import { getStatePropsValue } from '@/utils';
 
 import * as Themed from '../components';
-import { MuiTextField } from '../components';
 
 import { palette } from './palette';
 import { typography } from './typography';
@@ -45,6 +44,12 @@ declare module '@mui/material/Button' {
 
 export type HorizonTheme = typeof horizonTheme;
 
+const MuiTextField: Components['MuiTextField'] = {
+  defaultProps: {
+    variant: 'outlined',
+  },
+};
+
 export const horizonTheme = createTheme({
   typography,
   palette,
@@ -55,11 +60,6 @@ export const horizonTheme = createTheme({
     //   // MuiTypography: Themed.MuiTypography,
     MuiInputBase: Themed.MuiInputBase,
     MuiInputLabel: Themed.MuiInputLabel,
-    // MuiTextField: {
-    //   defaultProps: {
-    //     variant: 'outlined',
-    //   },
-    // },
     MuiTextField,
     MuiOutlinedInput: {
       styleOverrides: {
