@@ -48,9 +48,9 @@ export const horizonTheme = createTheme({
   palette,
   breakpoints,
   components: {
-    MuiButton: Themed.MuiButton,
-    MuiLink: Themed.MuiLink,
-    MuiTypography: Themed.MuiTypography,
+    // MuiButton: Themed.MuiButton,
+    // MuiLink: Themed.MuiLink,
+    // MuiTypography: Themed.MuiTypography,
     MuiInputBase: Themed.MuiInputBase,
     MuiInputLabel: Themed.MuiInputLabel,
     MuiTextField: Themed.MuiTextField,
