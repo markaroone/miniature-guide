@@ -4,6 +4,7 @@ import * as Themed from '@/components/themed';
 import { MuiTextField } from '@/components/themed/mui-text-field';
 import { getStatePropsValue } from '@/utils';
 
+import { breakpoints } from './breakpoints';
 import { palette } from './palette';
 import { typography } from './typography';
 
@@ -91,7 +92,7 @@ export type HorizonTheme = typeof horizonTheme;
 export const horizonTheme = createTheme({
   typography,
   palette,
-  // // breakpoints,
+  breakpoints,
   components: {
     //   // MuiButton: Themed.MuiButton,
     //   // MuiLink: Themed.MuiLink,
