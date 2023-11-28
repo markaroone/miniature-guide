@@ -27,5 +27,10 @@
     "types": ["@testing-library/jest-dom/vitest"]
   },
   "include": ["src"], // Specifies the directory to include when searching for TypeScript files.
-  "exclude": ["**/*.stories.ts", "**/*.test.ts"]
+  "exclude": [
+    "**/*.stories.ts",
+    "**/*.stories.tsx",
+    "**/*.test.ts",
+    "**/*.test.tsx"
+  ]
 }
