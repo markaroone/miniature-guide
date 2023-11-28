@@ -1,7 +1,8 @@
-import { horizonTheme } from '..';
+import { type Theme } from '@emotion/react';
+import { createTheme, type ThemeOptions } from '@mui/material/styles';
 import { deepmerge } from '@mui/utils';
-import { ThemeOptions, createTheme } from '@mui/material/styles';
-import { Theme } from '@emotion/react';
+
+import { horizonTheme } from '@/theme';
 
 export const overrideTheme = (theme?: ThemeOptions): Theme =>
   createTheme(deepmerge(horizonTheme, createTheme(theme)));

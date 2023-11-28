@@ -7,4 +7,5 @@ export const colors = Object.freeze({
   5: '#3D4D54',
   6: '#6C8AA3',
   7: '#9FB1BB',
+  8: '#D8DBDD',
 } as const);

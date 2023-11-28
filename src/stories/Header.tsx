@@ -1,12 +1,14 @@
-import './header.css';
+import { type ReactElement } from 'react';
 
 import { Button } from './Button';
 
-type User = {
-  name: string;
-};
+import './header.css';
 
-interface HeaderProps {
+export interface User {
+  name: string;
+}
+
+export interface HeaderProps {
   user?: User;
   onLogin: () => void;
   onLogout: () => void;
@@ -18,7 +20,7 @@ export const Header = ({
   onLogin,
   onLogout,
   onCreateAccount,
-}: HeaderProps) => (
+}: HeaderProps): ReactElement => (
   <header>
     <div className="storybook-header">
       <div>
@@ -46,10 +48,10 @@ export const Header = ({
         <h1>Acme</h1>
       </div>
       <div>
-        {user ? (
+        {user !== null ? (
           <>
             <span className="welcome">
-              Welcome, <b>{user.name}</b>!
+              Welcome, <b>{user?.name}</b>!
             </span>
             <Button size="small" onClick={onLogout} label="Log out" />
           </>

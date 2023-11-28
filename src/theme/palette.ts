@@ -1,10 +1,16 @@
-import { ThemeOptions } from '@mui/material';
+import { type ThemeOptions } from '@mui/material';
 
 import { colors } from './colors';
 
 export const palette: ThemeOptions['palette'] = {
   text: {
     primary: colors[5],
+  },
+  action: {
+    hover: colors[3],
+    active: colors[3],
+    focus: colors[3],
+    disabled: colors[8],
   },
   horizonWhite: {
     main: colors[0],
@@ -29,6 +35,9 @@ export const palette: ThemeOptions['palette'] = {
   },
   horizonBlue: {
     main: colors[3],
+  },
+  horizonDisabled: {
+    main: colors[8],
   },
   // * FOR TEST
   primary: {
