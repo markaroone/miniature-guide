@@ -1,5 +1,8 @@
 {
-  "name": "experimental-horizon-mui-component-library",
+  "name": "@markaroone/miniature-guide",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/markaroone"
+  },
   "version": "0.0.1",
   "author": "Markaroone",
   "license": "MIT",
