@@ -2,7 +2,6 @@ import { createTheme } from '@mui/material';
 
 import * as Themed from '../components/themed';
 
-import { breakpoints } from './breakpoints';
 import { palette } from './palette';
 import { typography } from './typography';
 
@@ -46,7 +45,7 @@ export type HorizonTheme = typeof horizonTheme;
 export const horizonTheme = createTheme({
   typography,
   palette,
-  breakpoints,
+  // breakpoints,
   components: {
     // MuiButton: Themed.MuiButton,
     // MuiLink: Themed.MuiLink,
