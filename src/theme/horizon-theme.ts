@@ -53,6 +53,6 @@ export const horizonTheme = createTheme({
     MuiInputBase: Themed.MuiInputBase,
     MuiInputLabel: Themed.MuiInputLabel,
     // MuiTextField: Themed.MuiTextField,
-    MuiOutlinedInput: Themed.MuiOutlinedInput,
+    // MuiOutlinedInput: Themed.MuiOutlinedInput,
   },
 });
