@@ -52,7 +52,7 @@ export const horizonTheme = createTheme({
     //   // MuiTypography: Themed.MuiTypography,
     MuiInputBase: Themed.MuiInputBase,
     MuiInputLabel: Themed.MuiInputLabel,
-    MuiTextField: Themed.MuiTextField,
-    // MuiOutlinedInput: Themed.MuiOutlinedInput,
+    // MuiTextField: Themed.MuiTextField,
+    MuiOutlinedInput: Themed.MuiOutlinedInput,
   },
 });
