@@ -1,9 +1,7 @@
 import { createTheme } from '@mui/material';
 
-import { MuiTextField } from '@/components/themed';
+import * as Themed from '@/components/themed';
 import { getStatePropsValue } from '@/utils';
-
-import * as Themed from '../components';
 
 import { palette } from './palette';
 import { typography } from './typography';
@@ -55,7 +53,7 @@ export const horizonTheme = createTheme({
     //   // MuiTypography: Themed.MuiTypography,
     MuiInputBase: Themed.MuiInputBase,
     MuiInputLabel: Themed.MuiInputLabel,
-    MuiTextField,
+    MuiTextField: Themed.MuiTextField,
     MuiOutlinedInput: {
       styleOverrides: {
         root: ({ theme, ownerState }) => ({
