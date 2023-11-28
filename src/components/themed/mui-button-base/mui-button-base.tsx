@@ -1,12 +1,13 @@
-import { Components } from '@mui/material';
-import { horizonTheme } from '@/theme';
+import { type Components } from '@mui/material';
+
+import { type horizonTheme } from '@/theme';
 
 export const MuiButton: Components<typeof horizonTheme>['MuiButton'] = {
   defaultProps: {
     disableRipple: true,
   },
   styleOverrides: {
-    root: ({ theme }: any) => ({
+    root: ({ theme }) => ({
       borderRadius: 8,
       textTransform: 'capitalize',
       '&.MuiButton-contained': {

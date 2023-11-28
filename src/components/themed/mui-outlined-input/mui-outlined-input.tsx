@@ -1,6 +1,7 @@
 import { type Components } from '@mui/material';
 
 import { type HorizonTheme } from '@/theme';
+
 import { getStatePropsValue } from '../../../utils';
 
 export const MuiOutlinedInput: Components<HorizonTheme>['MuiOutlinedInput'] = {
