@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/markaroone"
   },
-  "version": "0.0.31",
+  "version": "0.0.32",
   "author": "Markaroone",
   "license": "MIT",
   "type": "module",
