@@ -4,7 +4,7 @@ import { getStatePropsValue } from '@/utils';
 
 import { type HorizonTheme } from '.';
 
-export const MuiOutlinedInput: Components<HorizonTheme>['MuiOutlinedInput'] = {
+export const muiOutlinedInput: Components<HorizonTheme>['MuiOutlinedInput'] = {
   styleOverrides: {
     root: ({ theme, ownerState }) => ({
       '&.MuiInputBase-multiline': {

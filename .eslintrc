@@ -83,6 +83,5 @@
     ],
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error"
-  },
-  "exclude": ["src/**/__stories__", "src/**/__test__"]
+  }
 }
