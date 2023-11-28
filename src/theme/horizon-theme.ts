@@ -52,7 +52,11 @@ export const horizonTheme = createTheme({
     //   // MuiTypography: Themed.MuiTypography,
     MuiInputBase: Themed.MuiInputBase,
     MuiInputLabel: Themed.MuiInputLabel,
-    // MuiTextField: Themed.MuiTextField,
+    MuiTextField: {
+      defaultProps: {
+        variant: 'outlined',
+      },
+    },
     // MuiOutlinedInput: Themed.MuiOutlinedInput,
   },
 });
