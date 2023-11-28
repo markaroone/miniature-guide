@@ -1,7 +1,7 @@
 import { createTheme } from '@mui/material';
 
 import * as Themed from '@/components/themed';
-import { MuiOutlinedInput } from '@/components/themed/mui-outlined-input';
+import { MuiOutlinedInput } from '@/components/themed/mui-outlined-input/mui-outlined-input';
 import { MuiTextField } from '@/components/themed/mui-text-field';
 
 import { palette } from './palette';
