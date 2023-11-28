@@ -4,4 +4,5 @@ export const MuiTextField: Components['MuiTextField'] = {
   defaultProps: {
     variant: 'outlined',
   },
+  styleOverrides: {},
 };

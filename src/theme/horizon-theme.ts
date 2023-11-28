@@ -59,7 +59,7 @@ export const horizonTheme = createTheme({
     //     variant: 'outlined',
     //   },
     // },
-    MuiTextField: structuredClone(Themed.MuiTextField),
+    MuiTextField: Themed.MuiTextField,
     MuiOutlinedInput: {
       styleOverrides: {
         root: ({ theme, ownerState }) => ({
