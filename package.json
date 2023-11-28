@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/markaroone"
   },
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Markaroone",
   "license": "MIT",
   "type": "module",
@@ -63,9 +63,6 @@
     "vitest": "^0.34.6"
   },
   "peerDependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.14.18",
     "react": "^18.2.0"
   },
   "dependencies": {
