@@ -1,7 +1,7 @@
 import { createTheme } from '@mui/material';
 
 import * as Themed from '@/components/themed';
-import { MuiTextField } from '@/components/themed';
+import { MuiTextField } from '@/components/themed/mui-text-field';
 import { getStatePropsValue } from '@/utils';
 
 import { palette } from './palette';
