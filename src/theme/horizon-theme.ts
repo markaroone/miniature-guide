@@ -1,5 +1,7 @@
 import { createTheme } from '@mui/material';
 
+import * as Themed from '../components';
+
 import { palette } from './palette';
 import { typography } from './typography';
 
@@ -44,13 +46,13 @@ export const horizonTheme = createTheme({
   typography,
   palette,
   // // breakpoints,
-  // components: {
-  //   // MuiButton: Themed.MuiButton,
-  //   // MuiLink: Themed.MuiLink,
-  //   // MuiTypography: Themed.MuiTypography,
-  //   MuiInputBase: Themed.MuiInputBase,
-  //   MuiInputLabel: Themed.MuiInputLabel,
-  //   MuiTextField: Themed.MuiTextField,
-  //   MuiOutlinedInput: Themed.MuiOutlinedInput,
-  // },
+  components: {
+    //   // MuiButton: Themed.MuiButton,
+    //   // MuiLink: Themed.MuiLink,
+    //   // MuiTypography: Themed.MuiTypography,
+    MuiInputBase: Themed.MuiInputBase,
+    //   MuiInputLabel: Themed.MuiInputLabel,
+    //   MuiTextField: Themed.MuiTextField,
+    //   MuiOutlinedInput: Themed.MuiOutlinedInput,
+  },
 });
