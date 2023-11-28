@@ -2,7 +2,6 @@ import { createTheme } from '@mui/material';
 
 import * as Themed from '@/components/themed';
 import { MuiTextField } from '@/components/themed/mui-text-field';
-import { MuiOutlinedInput } from './mui-outlined-input';
 import { Horizon } from '@/components';
 
 import { breakpoints } from './breakpoints';
