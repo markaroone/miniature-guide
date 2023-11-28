@@ -51,7 +51,7 @@ export const horizonTheme = createTheme({
     //   // MuiLink: Themed.MuiLink,
     //   // MuiTypography: Themed.MuiTypography,
     MuiInputBase: Themed.MuiInputBase,
-    //   MuiInputLabel: Themed.MuiInputLabel,
+    MuiInputLabel: Themed.MuiInputLabel,
     //   MuiTextField: Themed.MuiTextField,
     //   MuiOutlinedInput: Themed.MuiOutlinedInput,
   },
