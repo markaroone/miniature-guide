@@ -3,6 +3,7 @@ import { createTheme } from '@mui/material';
 import { getStatePropsValue } from '@/utils';
 
 import * as Themed from '../components';
+import { MuiTextField } from '../components';
 
 import { palette } from './palette';
 import { typography } from './typography';
@@ -59,7 +60,7 @@ export const horizonTheme = createTheme({
     //     variant: 'outlined',
     //   },
     // },
-    MuiTextField: Themed.MuiTextField,
+    MuiTextField,
     MuiOutlinedInput: {
       styleOverrides: {
         root: ({ theme, ownerState }) => ({
