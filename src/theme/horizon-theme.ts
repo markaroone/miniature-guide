@@ -2,6 +2,7 @@ import { createTheme } from '@mui/material';
 
 import * as Themed from '@/components/themed';
 import { MuiTextField } from '@/components/themed/mui-text-field';
+import { MuiOutlinedInput } from '@/components/themed/mui-outlined-input/mui-outlined-input';
 
 import { breakpoints } from './breakpoints';
 import { palette } from './palette';
@@ -99,6 +100,6 @@ export const horizonTheme = createTheme({
     MuiInputBase: Themed.MuiInputBase,
     MuiInputLabel: Themed.MuiInputLabel,
     MuiTextField,
-    MuiOutlinedInput: Themed.MuiOutlinedInput,
+    MuiOutlinedInput,
   },
 });
