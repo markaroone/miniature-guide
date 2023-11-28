@@ -1,5 +1,8 @@
 import { createTheme } from '@mui/material';
 
+import { palette } from './palette';
+import { typography } from './typography';
+
 declare module '@mui/material/styles' {
   interface Palette {
     horizonWhite: Palette['primary'];
@@ -38,8 +41,8 @@ declare module '@mui/material/Button' {
 export type HorizonTheme = typeof horizonTheme;
 
 export const horizonTheme = createTheme({
-  // typography,
-  // palette,
+  typography,
+  palette,
   // // breakpoints,
   // components: {
   //   // MuiButton: Themed.MuiButton,
