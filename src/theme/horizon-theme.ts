@@ -51,7 +51,7 @@ export const horizonTheme = createTheme({
   breakpoints,
   components: {
     MuiButton: Themed.MuiButton,
-    //   // MuiLink: Themed.MuiLink,
+    MuiLink: Themed.MuiLink,
     //   // MuiTypography: Themed.MuiTypography,
     MuiInputBase: Themed.MuiInputBase,
     MuiInputLabel: Themed.MuiInputLabel,
