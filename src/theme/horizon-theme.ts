@@ -5,6 +5,7 @@ import { MuiTextField } from '@/components/themed/mui-text-field';
 
 import { breakpoints } from './breakpoints';
 import { muiOutlinedInput } from './mui-outlined-input';
+import { muiTypography } from './mui-typography';
 import { palette } from './palette';
 import { typography } from './typography';
 
@@ -43,6 +44,37 @@ declare module '@mui/material/Button' {
   }
 }
 
+declare module '@mui/material/Typography' {
+  interface TypographyPropsVariantOverrides {
+    title1: true;
+    title2: true;
+    title3: true;
+    titleBold1: true;
+    titleBold2: true;
+    titleBold3: true;
+    body: true;
+    bodySmall: true;
+    bodyLarge: true;
+    bodyBold: true;
+    bodyBoldSmall: true;
+    bodyBoldLarge: true;
+    footnote: true;
+    legal: true;
+    footnoteBold: true;
+    legalBold: true;
+    quotes: true;
+    text: true;
+    label: true;
+    notation: true;
+    help: true;
+    action: true;
+    code: true;
+    display1: true;
+    display2: true;
+    display3: true;
+  }
+}
+
 export type HorizonTheme = typeof horizonTheme;
 
 export const horizonTheme = createTheme({
@@ -52,7 +84,7 @@ export const horizonTheme = createTheme({
   components: {
     MuiButton: Themed.MuiButton,
     MuiLink: Themed.MuiLink,
-    MuiTypography: Themed.MuiTypography,
+    MuiTypography: muiTypography,
     MuiInputBase: Themed.MuiInputBase,
     MuiInputLabel: Themed.MuiInputLabel,
     MuiTextField,
