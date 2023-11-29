@@ -1,6 +1,6 @@
 import { type Components } from '@mui/material';
 
-export const MuiInputBase: Components['MuiInputBase'] = {
+export const muiInputBase: Components['MuiInputBase'] = {
   defaultProps: {
     autoComplete: 'off',
   },

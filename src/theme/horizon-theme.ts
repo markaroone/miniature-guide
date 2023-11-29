@@ -1,10 +1,12 @@
 import { createTheme } from '@mui/material';
 
-import * as Themed from '@/components/themed';
-import { MuiTextField } from '@/components/themed/mui-text-field';
-
 import { breakpoints } from './breakpoints';
+import { muiButton } from './mui-button';
+import { muiInputBase } from './mui-input-base';
+import { muiInputLabel } from './mui-input-label';
+import { muiLink } from './mui-link';
 import { muiOutlinedInput } from './mui-outlined-input';
+import { muiTextField } from './mui-text-field';
 import { muiTypography } from './mui-typography';
 import { palette } from './palette';
 import { typography } from './typography';
@@ -42,12 +44,12 @@ export const horizonTheme = createTheme({
   palette,
   breakpoints,
   components: {
-    MuiButton: Themed.MuiButton,
-    MuiLink: Themed.MuiLink,
+    MuiButton: muiButton,
+    MuiLink: muiLink,
     MuiTypography: muiTypography,
-    MuiInputBase: Themed.MuiInputBase,
-    MuiInputLabel: Themed.MuiInputLabel,
-    MuiTextField,
+    MuiInputBase: muiInputBase,
+    MuiInputLabel: muiInputLabel,
+    MuiTextField: muiTextField,
     MuiOutlinedInput: muiOutlinedInput,
   },
 });

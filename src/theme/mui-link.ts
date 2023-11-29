@@ -1,6 +1,6 @@
 import { type Components } from '@mui/material';
 
-export const MuiLink: Components['MuiLink'] = {
+export const muiLink: Components['MuiLink'] = {
   styleOverrides: {
     root: {
       color: '#7DDD00',

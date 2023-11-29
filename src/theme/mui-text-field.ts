@@ -1,6 +1,6 @@
 import { type Components } from '@mui/material';
 
-export const MuiTextField: Components['MuiTextField'] = {
+export const muiTextField: Components['MuiTextField'] = {
   defaultProps: {
     variant: 'outlined',
   },

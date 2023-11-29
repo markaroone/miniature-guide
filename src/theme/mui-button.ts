@@ -2,7 +2,7 @@ import { type Components } from '@mui/material';
 
 import { type horizonTheme } from '@/theme';
 
-export const MuiButton: Components<typeof horizonTheme>['MuiButton'] = {
+export const muiButton: Components<typeof horizonTheme>['MuiButton'] = {
   defaultProps: {
     disableRipple: true,
   },

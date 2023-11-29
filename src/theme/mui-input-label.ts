@@ -2,7 +2,7 @@ import { type Components } from '@mui/material';
 
 import { type HorizonTheme } from '@/theme';
 
-export const MuiInputLabel: Components<HorizonTheme>['MuiInputLabel'] = {
+export const muiInputLabel: Components<HorizonTheme>['MuiInputLabel'] = {
   styleOverrides: {
     root: ({ theme }) => ({
       fontSize: 14,
