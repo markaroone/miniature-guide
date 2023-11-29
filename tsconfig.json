@@ -26,5 +26,5 @@
     },
     "types": ["@testing-library/jest-dom/vitest"]
   },
-  "include": ["src", "declaration.d.ts"] // Specifies the directory to include when searching for TypeScript files.
+  "include": ["src", "declarations.d.ts"] // Specifies the directory to include when searching for TypeScript files.
 }
