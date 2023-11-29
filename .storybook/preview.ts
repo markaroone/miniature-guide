@@ -4,10 +4,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 
 import { horizonTheme } from '../src/theme/horizon-theme';
 
-import '@fontsource/roboto/300.css';
-import '@fontsource/roboto/400.css';
-import '@fontsource/roboto/500.css';
-import '@fontsource/roboto/700.css';
+import '@fontsource-variable/open-sans';
 import '@fontsource/material-icons';
 
 const preview: Preview = {
