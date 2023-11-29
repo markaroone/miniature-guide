@@ -2,6 +2,32 @@ import { type ThemeOptions } from '@mui/material';
 
 import { colors } from './colors';
 
+declare module '@mui/material/styles' {
+  interface Palette {
+    horizonWhite: Palette['primary'];
+    horizonText: Palette['primary'];
+    horizonGray1: Palette['primary'];
+    horizonGray2: Palette['primary'];
+    horizonGray3: Palette['primary'];
+    horizonRed: Palette['primary'];
+    horizonGreen: Palette['primary'];
+    horizonBlue: Palette['primary'];
+    horizonDisabled: Palette['primary'];
+  }
+
+  interface PaletteOptions {
+    horizonWhite?: PaletteOptions['primary'];
+    horizonText?: PaletteOptions['primary'];
+    horizonGray1?: PaletteOptions['primary'];
+    horizonGray2?: PaletteOptions['primary'];
+    horizonGray3?: PaletteOptions['primary'];
+    horizonRed?: PaletteOptions['primary'];
+    horizonGreen?: PaletteOptions['primary'];
+    horizonBlue?: PaletteOptions['primary'];
+    horizonDisabled: PaletteOptions['primary'];
+  }
+}
+
 export const palette: ThemeOptions['palette'] = {
   text: {
     primary: colors[5],
