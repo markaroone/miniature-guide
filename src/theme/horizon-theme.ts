@@ -44,37 +44,6 @@ declare module '@mui/material/Button' {
   }
 }
 
-declare module '@mui/material/Typography' {
-  interface TypographyPropsVariantOverrides {
-    title1: true;
-    title2: true;
-    title3: true;
-    titleBold1: true;
-    titleBold2: true;
-    titleBold3: true;
-    body: true;
-    bodySmall: true;
-    bodyLarge: true;
-    bodyBold: true;
-    bodyBoldSmall: true;
-    bodyBoldLarge: true;
-    footnote: true;
-    legal: true;
-    footnoteBold: true;
-    legalBold: true;
-    quotes: true;
-    text: true;
-    label: true;
-    notation: true;
-    help: true;
-    action: true;
-    code: true;
-    display1: true;
-    display2: true;
-    display3: true;
-  }
-}
-
 export type HorizonTheme = typeof horizonTheme;
 
 export const horizonTheme = createTheme({
