@@ -52,7 +52,7 @@ export const horizonTheme = createTheme({
   components: {
     MuiButton: Themed.MuiButton,
     MuiLink: Themed.MuiLink,
-    //   // MuiTypography: Themed.MuiTypography,
+    MuiTypography: Themed.MuiTypography,
     MuiInputBase: Themed.MuiInputBase,
     MuiInputLabel: Themed.MuiInputLabel,
     MuiTextField,
